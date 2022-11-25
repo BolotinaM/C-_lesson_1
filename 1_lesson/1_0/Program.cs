@@ -1,6 +1,12 @@
-﻿// Условие задачи 
-Console.WriteLine("Write a number");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        // Квадрат числа
+        Console.WriteLine("Write a number");
 
-int num = int.Parse(Console.ReadLine());
+        int num = int.Parse(Console.ReadLine());
 
-Console.WriteLine(num*num);
+        Console.WriteLine(num * num);
+    }
+}
